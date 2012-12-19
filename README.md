@@ -175,6 +175,7 @@ components following the same API.
 * tel
 * url
 * date
+* file
 
 ### Widgets
 
@@ -193,6 +194,7 @@ components following the same API.
 * multipleRadio
 * multipleSelect
 * label
+* file
 
 ### Validators
 
