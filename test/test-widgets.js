@@ -450,6 +450,12 @@ test('optional text input', function (t) {
         }).toHTML('field1'),
         '<input type="text" name="field1" id="id_field1" tabindex="1" />'
     );
+    t.equal(
+        forms.widgets.text({
+            accept: 'jpeg,jpg'
+        }).toHTML('field1'),
+        '<input type="text" name="field1" id="id_field1" accept="jpeg,jpg" />'
+    );
     t.end();
 });
 
